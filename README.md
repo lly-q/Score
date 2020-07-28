@@ -6,7 +6,8 @@
 ##更新  
 *使用ViewModelProvider替代已经过时的ViewModelProviders  
 ###Java用法：  
-``` myViewModel =  new ViewModelProvider.AndroidViewModelFactory(getApplication()).create(MyViewModel.class); // java 
+``` Java
+myViewModel =  new ViewModelProvider.AndroidViewModelFactory(getApplication()).create(MyViewModel.class); // java 
 ```
 ---------------------------------------------------------
 ##补充  
