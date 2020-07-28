@@ -7,7 +7,7 @@
 *使用ViewModelProvider替代已经过时的ViewModelProviders  
 ###Java用法：  
 ```kotlin
-myViewModel =  new ViewModelProvider.AndroidViewModelFactory(application).create(MyViewModel::class.java) // kotlin 
+myViewModel = ViewModelProvider.AndroidViewModelFactory(application).create(MyViewModel::class.java) // kotlin 
 ```
 ---------------------------------------------------------
 ##补充  
