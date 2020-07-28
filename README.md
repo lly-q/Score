@@ -6,7 +6,8 @@
 ##更新  
 *使用ViewModelProvider替代已经过时的ViewModelProviders  
 ###Java用法：  
-        myViewModel =  new ViewModelProvider.AndroidViewModelFactory(getApplication()).create(MyViewModel.class);
+``` myViewModel =  new ViewModelProvider.AndroidViewModelFactory(getApplication()).create(MyViewModel.class); // java 
+```
 ---------------------------------------------------------
 ##补充  
 *不需要再对Gradle添加矢量图标支持
